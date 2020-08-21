@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4D6C72E24EB3061000DE7C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D6C72D24EB3061000DE7C2 /* AppDelegate.swift */; };
+		D4D6C73024EB3061000DE7C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D6C72F24EB3061000DE7C2 /* SceneDelegate.swift */; };
+		D4D6C73224EB3061000DE7C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D6C73124EB3061000DE7C2 /* ViewController.swift */; };
+		D4D6C73524EB3061000DE7C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4D6C73324EB3061000DE7C2 /* Main.storyboard */; };
+		D4D6C73824EB3061000DE7C2 /* Jessica_B_Pizza_Exercise.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D4D6C73624EB3061000DE7C2 /* Jessica_B_Pizza_Exercise.xcdatamodeld */; };
+		D4D6C73A24EB3063000DE7C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4D6C73924EB3063000DE7C2 /* Assets.xcassets */; };
+		D4D6C73D24EB3063000DE7C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4D6C73B24EB3063000DE7C2 /* LaunchScreen.storyboard */; };
+		D4D6C74824EB3064000DE7C2 /* Jessica_B_Pizza_ExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D6C74724EB3064000DE7C2 /* Jessica_B_Pizza_ExerciseTests.swift */; };
+		D4D6C75324EB3064000DE7C2 /* Jessica_B_Pizza_ExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D6C75224EB3064000DE7C2 /* Jessica_B_Pizza_ExerciseUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4D6C74424EB3064000DE7C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4D6C72224EB3061000DE7C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4D6C72924EB3061000DE7C2;
+			remoteInfo = Jessica_B_Pizza_Exercise;
+		};
+		D4D6C74F24EB3064000DE7C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4D6C72224EB3061000DE7C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4D6C72924EB3061000DE7C2;
+			remoteInfo = Jessica_B_Pizza_Exercise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4D6C72A24EB3061000DE7C2 /* Jessica_B_Pizza_Exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jessica_B_Pizza_Exercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D6C72D24EB3061000DE7C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4D6C72F24EB3061000DE7C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D4D6C73124EB3061000DE7C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4D6C73424EB3061000DE7C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4D6C73724EB3061000DE7C2 /* Jessica_B_Pizza_Exercise.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Jessica_B_Pizza_Exercise.xcdatamodel; sourceTree = "<group>"; };
+		D4D6C73924EB3063000DE7C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4D6C73C24EB3063000DE7C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4D6C73E24EB3063000DE7C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4D6C74324EB3064000DE7C2 /* Jessica_B_Pizza_ExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Jessica_B_Pizza_ExerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D6C74724EB3064000DE7C2 /* Jessica_B_Pizza_ExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jessica_B_Pizza_ExerciseTests.swift; sourceTree = "<group>"; };
+		D4D6C74924EB3064000DE7C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4D6C74E24EB3064000DE7C2 /* Jessica_B_Pizza_ExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Jessica_B_Pizza_ExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D6C75224EB3064000DE7C2 /* Jessica_B_Pizza_ExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jessica_B_Pizza_ExerciseUITests.swift; sourceTree = "<group>"; };
+		D4D6C75424EB3064000DE7C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4D6C72724EB3061000DE7C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D6C74024EB3064000DE7C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D6C74B24EB3064000DE7C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4D6C72124EB3061000DE7C2 = {
+			isa = PBXGroup;
+			children = (
+				D4D6C72C24EB3061000DE7C2 /* Jessica_B_Pizza_Exercise */,
+				D4D6C74624EB3064000DE7C2 /* Jessica_B_Pizza_ExerciseTests */,
+				D4D6C75124EB3064000DE7C2 /* Jessica_B_Pizza_ExerciseUITests */,
+				D4D6C72B24EB3061000DE7C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4D6C72B24EB3061000DE7C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4D6C72A24EB3061000DE7C2 /* Jessica_B_Pizza_Exercise.app */,
+				D4D6C74324EB3064000DE7C2 /* Jessica_B_Pizza_ExerciseTests.xctest */,
+				D4D6C74E24EB3064000DE7C2 /* Jessica_B_Pizza_ExerciseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4D6C72C24EB3061000DE7C2 /* Jessica_B_Pizza_Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				D4D6C72D24EB3061000DE7C2 /* AppDelegate.swift */,
+				D4D6C72F24EB3061000DE7C2 /* SceneDelegate.swift */,
+				D4D6C73124EB3061000DE7C2 /* ViewController.swift */,
+				D4D6C73324EB3061000DE7C2 /* Main.storyboard */,
+				D4D6C73924EB3063000DE7C2 /* Assets.xcassets */,
+				D4D6C73B24EB3063000DE7C2 /* LaunchScreen.storyboard */,
+				D4D6C73E24EB3063000DE7C2 /* Info.plist */,
+				D4D6C73624EB3061000DE7C2 /* Jessica_B_Pizza_Exercise.xcdatamodeld */,
+			);
+			path = Jessica_B_Pizza_Exercise;
+			sourceTree = "<group>";
+		};
+		D4D6C74624EB3064000DE7C2 /* Jessica_B_Pizza_ExerciseTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4D6C74724EB3064000DE7C2 /* Jessica_B_Pizza_ExerciseTests.swift */,
+				D4D6C74924EB3064000DE7C2 /* Info.plist */,
+			);
+			path = Jessica_B_Pizza_ExerciseTests;
+			sourceTree = "<group>";
+		};
+		D4D6C75124EB3064000DE7C2 /* Jessica_B_Pizza_ExerciseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4D6C75224EB3064000DE7C2 /* Jessica_B_Pizza_ExerciseUITests.swift */,
+				D4D6C75424EB3064000DE7C2 /* Info.plist */,
+			);
+			path = Jessica_B_Pizza_ExerciseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4D6C72924EB3061000DE7C2 /* Jessica_B_Pizza_Exercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4D6C75724EB3064000DE7C2 /* Build configuration list for PBXNativeTarget "Jessica_B_Pizza_Exercise" */;
+			buildPhases = (
+				D4D6C72624EB3061000DE7C2 /* Sources */,
+				D4D6C72724EB3061000DE7C2 /* Frameworks */,
+				D4D6C72824EB3061000DE7C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jessica_B_Pizza_Exercise;
+			productName = Jessica_B_Pizza_Exercise;
+			productReference = D4D6C72A24EB3061000DE7C2 /* Jessica_B_Pizza_Exercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4D6C74224EB3064000DE7C2 /* Jessica_B_Pizza_ExerciseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4D6C75A24EB3064000DE7C2 /* Build configuration list for PBXNativeTarget "Jessica_B_Pizza_ExerciseTests" */;
+			buildPhases = (
+				D4D6C73F24EB3064000DE7C2 /* Sources */,
+				D4D6C74024EB3064000DE7C2 /* Frameworks */,
+				D4D6C74124EB3064000DE7C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4D6C74524EB3064000DE7C2 /* PBXTargetDependency */,
+			);
+			name = Jessica_B_Pizza_ExerciseTests;
+			productName = Jessica_B_Pizza_ExerciseTests;
+			productReference = D4D6C74324EB3064000DE7C2 /* Jessica_B_Pizza_ExerciseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4D6C74D24EB3064000DE7C2 /* Jessica_B_Pizza_ExerciseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4D6C75D24EB3064000DE7C2 /* Build configuration list for PBXNativeTarget "Jessica_B_Pizza_ExerciseUITests" */;
+			buildPhases = (
+				D4D6C74A24EB3064000DE7C2 /* Sources */,
+				D4D6C74B24EB3064000DE7C2 /* Frameworks */,
+				D4D6C74C24EB3064000DE7C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4D6C75024EB3064000DE7C2 /* PBXTargetDependency */,
+			);
+			name = Jessica_B_Pizza_ExerciseUITests;
+			productName = Jessica_B_Pizza_ExerciseUITests;
+			productReference = D4D6C74E24EB3064000DE7C2 /* Jessica_B_Pizza_ExerciseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4D6C72224EB3061000DE7C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Jessica Banos";
+				TargetAttributes = {
+					D4D6C72924EB3061000DE7C2 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					D4D6C74224EB3064000DE7C2 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D4D6C72924EB3061000DE7C2;
+					};
+					D4D6C74D24EB3064000DE7C2 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D4D6C72924EB3061000DE7C2;
+					};
+				};
+			};
+			buildConfigurationList = D4D6C72524EB3061000DE7C2 /* Build configuration list for PBXProject "Jessica_B_Pizza_Exercise" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4D6C72124EB3061000DE7C2;
+			productRefGroup = D4D6C72B24EB3061000DE7C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4D6C72924EB3061000DE7C2 /* Jessica_B_Pizza_Exercise */,
+				D4D6C74224EB3064000DE7C2 /* Jessica_B_Pizza_ExerciseTests */,
+				D4D6C74D24EB3064000DE7C2 /* Jessica_B_Pizza_ExerciseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4D6C72824EB3061000DE7C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D6C73D24EB3063000DE7C2 /* LaunchScreen.storyboard in Resources */,
+				D4D6C73A24EB3063000DE7C2 /* Assets.xcassets in Resources */,
+				D4D6C73524EB3061000DE7C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D6C74124EB3064000DE7C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D6C74C24EB3064000DE7C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4D6C72624EB3061000DE7C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D6C73824EB3061000DE7C2 /* Jessica_B_Pizza_Exercise.xcdatamodeld in Sources */,
+				D4D6C73224EB3061000DE7C2 /* ViewController.swift in Sources */,
+				D4D6C72E24EB3061000DE7C2 /* AppDelegate.swift in Sources */,
+				D4D6C73024EB3061000DE7C2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D6C73F24EB3064000DE7C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D6C74824EB3064000DE7C2 /* Jessica_B_Pizza_ExerciseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D6C74A24EB3064000DE7C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D6C75324EB3064000DE7C2 /* Jessica_B_Pizza_ExerciseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4D6C74524EB3064000DE7C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4D6C72924EB3061000DE7C2 /* Jessica_B_Pizza_Exercise */;
+			targetProxy = D4D6C74424EB3064000DE7C2 /* PBXContainerItemProxy */;
+		};
+		D4D6C75024EB3064000DE7C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4D6C72924EB3061000DE7C2 /* Jessica_B_Pizza_Exercise */;
+			targetProxy = D4D6C74F24EB3064000DE7C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4D6C73324EB3061000DE7C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4D6C73424EB3061000DE7C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4D6C73B24EB3063000DE7C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4D6C73C24EB3063000DE7C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4D6C75524EB3064000DE7C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4D6C75624EB3064000DE7C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4D6C75824EB3064000DE7C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jessica_B_Pizza_Exercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jessica-Banos.Jessica-B-Pizza-Exercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4D6C75924EB3064000DE7C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jessica_B_Pizza_Exercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jessica-Banos.Jessica-B-Pizza-Exercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D4D6C75B24EB3064000DE7C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jessica_B_Pizza_ExerciseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jessica-Banos.Jessica-B-Pizza-ExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jessica_B_Pizza_Exercise.app/Jessica_B_Pizza_Exercise";
+			};
+			name = Debug;
+		};
+		D4D6C75C24EB3064000DE7C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jessica_B_Pizza_ExerciseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jessica-Banos.Jessica-B-Pizza-ExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jessica_B_Pizza_Exercise.app/Jessica_B_Pizza_Exercise";
+			};
+			name = Release;
+		};
+		D4D6C75E24EB3064000DE7C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jessica_B_Pizza_ExerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jessica-Banos.Jessica-B-Pizza-ExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jessica_B_Pizza_Exercise;
+			};
+			name = Debug;
+		};
+		D4D6C75F24EB3064000DE7C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jessica_B_Pizza_ExerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jessica-Banos.Jessica-B-Pizza-ExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jessica_B_Pizza_Exercise;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4D6C72524EB3061000DE7C2 /* Build configuration list for PBXProject "Jessica_B_Pizza_Exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4D6C75524EB3064000DE7C2 /* Debug */,
+				D4D6C75624EB3064000DE7C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4D6C75724EB3064000DE7C2 /* Build configuration list for PBXNativeTarget "Jessica_B_Pizza_Exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4D6C75824EB3064000DE7C2 /* Debug */,
+				D4D6C75924EB3064000DE7C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4D6C75A24EB3064000DE7C2 /* Build configuration list for PBXNativeTarget "Jessica_B_Pizza_ExerciseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4D6C75B24EB3064000DE7C2 /* Debug */,
+				D4D6C75C24EB3064000DE7C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4D6C75D24EB3064000DE7C2 /* Build configuration list for PBXNativeTarget "Jessica_B_Pizza_ExerciseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4D6C75E24EB3064000DE7C2 /* Debug */,
+				D4D6C75F24EB3064000DE7C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D4D6C73624EB3061000DE7C2 /* Jessica_B_Pizza_Exercise.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D4D6C73724EB3061000DE7C2 /* Jessica_B_Pizza_Exercise.xcdatamodel */,
+			);
+			currentVersion = D4D6C73724EB3061000DE7C2 /* Jessica_B_Pizza_Exercise.xcdatamodel */;
+			path = Jessica_B_Pizza_Exercise.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D4D6C72224EB3061000DE7C2 /* Project object */;
+}
